@@ -1,0 +1,5 @@
+Django==1.6.5
+Pillow==2.4.0
+pip-tools==0.3.4
+requests==2.3.0
+South==0.8.4
