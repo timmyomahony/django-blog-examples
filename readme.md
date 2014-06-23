@@ -1,6 +1,6 @@
 This repository contains examples from django related blog posts on http://timmyomahony.com
 
-To set it up as a working repository:
+To set it up as a working repository (with django 1.6):
 
     mkvirtualenv django-blog-examples --no-site-packages
     workon django-blog-examples
@@ -12,4 +12,3 @@ To set it up as a working repository:
     python manage.py syncdb
     python manage.py migrate
     python manage.py runserver
-    
