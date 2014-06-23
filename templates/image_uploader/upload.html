@@ -1,0 +1,13 @@
+<html>
+<head>
+    {{ form.media }}
+</head>
+<body>
+    <h1>Upload an image via URL</h1>
+    <form method="post" action="{% url 'upload-url' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Upload Image" />
+    </form>
+</body>
+</html>
